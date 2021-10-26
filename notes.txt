@@ -1,0 +1,6 @@
+mongodb+srv://Omar:George72@cluster0.cpwsq.mongodb.net/test?authSource=admin&replicaSet=atlas-11llox-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true
+
+might need to get mongo string for 3.4 and older above might be newer:
+
+mongo "mongodb://cluster0-shard-00-00.cpwsq.mongodb.net:27017,cluster0-shard-00-01.cpwsq.mongodb.net:27017,cluster0-shard-00-02.cpwsq.mongodb.net:27017/myFirstDatabase?replicaSet=atlas-11llox-shard-0" --ssl --authenticationDatabase admin --username <username> --password <password>
+
