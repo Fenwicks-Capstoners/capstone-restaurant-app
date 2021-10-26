@@ -1,0 +1,21 @@
+<div>
+    <a href="/getdetails">Get Details</a>
+</div>
+<hr>
+
+<!--<% if(details!=null) { %>-->
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>lName </th>
+
+        </tr>
+        <% details.forEach(function(item){ %>
+            <tr>
+                <td><%= item.Name%></td>
+                <td><%= item.lName%></td>
+
+            </tr>
+        <% }) %>
+    </table>
+<% } %>

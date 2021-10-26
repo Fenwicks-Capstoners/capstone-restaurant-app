@@ -2,5 +2,6 @@ mongodb+srv://Omar:George72@cluster0.cpwsq.mongodb.net/test?authSource=admin&rep
 
 might need to get mongo string for 3.4 and older above might be newer:
 
-mongo "mongodb://cluster0-shard-00-00.cpwsq.mongodb.net:27017,cluster0-shard-00-01.cpwsq.mongodb.net:27017,cluster0-shard-00-02.cpwsq.mongodb.net:27017/myFirstDatabase?replicaSet=atlas-11llox-shard-0" --ssl --authenticationDatabase admin --username <username> --password <password>
+mongo mongodb://Omar:George72@cluster0-shard-00-00.cpwsq.mongodb.net:27017,cluster0-shard-00-01.cpwsq.mongodb.net:27017,cluster0-shard-00-02.cpwsq.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-11llox-shard-0&authSource=admin&retryWrites=true&w=majority
 
+adobe spark
