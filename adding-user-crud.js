@@ -5,7 +5,7 @@ async function main() {
      * Connection URI. Update <username>, <password>, and <your-cluster-url> to reflect your cluster.
      * See https://docs.mongodb.com/drivers/node/ for more details
      */
-    const uri = "mongodb+srv://Omar:George72@cluster0.cpwsq.mongodb.net/sample_airbnb?retryWrites=true&w=majority";
+    const uri = "mongodb+srv://Omar:George72@cluster0.cpwsq.mongodb.net/capstone_database?retryWrites=true&w=majority";
 
 
     /**
@@ -24,20 +24,19 @@ async function main() {
         // Make the appropriate DB calls
         //Our function to create a new listing will look something like the following:
         //create one document (think object in a collection)
-        async function createListing(client, newListing){
-            const result = await client.db("sample_airbnb").collection("listingsAndReviews").insertOne(newListing);
+        async function createEmployee(client, newEmployee){
+            const result = await client.db("capstone_database").collection("userCollection").insertOne(newEmployee);
             console.log(`New listing created with the following id: ${result.insertedId}`);
         }
 
         //We can call this function by passing
         // a connected MongoClient as well as an object
         // that contains information about a listing.
-        await createListing(client,
+        await createEmployee(client,
             {
-                name: "Lovely Loft2",
-                summary: "A charming loft in Paris",
-                bedrooms: 1,
-                bathrooms: 1
+                admin: "true",
+                name: "Test Manager",
+                email: "omarnorombaba@gmail.com"
             }
         );
 
