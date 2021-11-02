@@ -1,0 +1,12 @@
+mongodb+srv://Omar:George72@cluster0.cpwsq.mongodb.net/test?authSource=admin&replicaSet=atlas-11llox-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true
+
+might need to get mongo string for 3.4 and older above might be newer:
+
+mongo mongodb://Omar:George72@cluster0-shard-00-00.cpwsq.mongodb.net:27017,cluster0-shard-00-01.cpwsq.mongodb.net:27017,cluster0-shard-00-02.cpwsq.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-11llox-shard-0&authSource=admin&retryWrites=true&w=majority
+
+adobe spark
+
+Probably read this and figure out if you need to host and connect to db
+https://www.mongodb.com/developer/quickstart/node-crud-tutorial/#std-label-node-tutorial-video
+
+might be ok to restart all together
