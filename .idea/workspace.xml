@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="just git added now trying to push all to remote">
+      <change afterPath="$PROJECT_DIR$/views/index2.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejs_attempt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/capstone-restaurant-app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +119,7 @@
       <workItem from="1636316979449" duration="1049000" />
       <workItem from="1636318086590" duration="75000" />
       <workItem from="1636318512571" duration="2005000" />
+      <workItem from="1636320654510" duration="4472000" />
     </task>
     <task id="LOCAL-00001" summary="New Layout">
       <created>1634680746117</created>
@@ -161,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636320237622</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="all should be working now">
+      <created>1636320799349</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1636320799349</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +214,7 @@
     <MESSAGE value="trying to merge" />
     <MESSAGE value="trying to merge2 4pm" />
     <MESSAGE value="just git added now trying to push all to remote" />
-    <option name="LAST_COMMIT_MESSAGE" value="just git added now trying to push all to remote" />
+    <MESSAGE value="all should be working now" />
+    <option name="LAST_COMMIT_MESSAGE" value="all should be working now" />
   </component>
 </project>

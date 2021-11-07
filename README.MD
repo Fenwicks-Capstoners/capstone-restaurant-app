@@ -10,7 +10,7 @@
 
 *
 pixelated
-primate colors
+primary colors
 
 bit shift
 

@@ -28,6 +28,9 @@ app.use(function (req, res, next) {
   console.log(req.body) // populated!
   next()
 })
+app.use("/assets", express.static('./assets/'));
+
+
 // All your handlers here...
 
 //todo: maybe dont connect w/ mongoose
@@ -85,7 +88,7 @@ app.get('/', (req, res) => {
 // app.get('/', (req, res) => {
 //   db.collection('userCollection').find().toArray((err, result) => {
 //     if (err) return console.log(err);
-//     res.render('index.ejs', { quotes: result });
+//     res.render('index2.ejs', { quotes: result });
 //   });
 // });
 
