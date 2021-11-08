@@ -35,6 +35,7 @@ app.use(function (req, res, next) {
   next();
 });
 app.use("/assets", express.static('./assets/'));
+app.use("/CFA", express.static('./CFA/'));
 
 
 

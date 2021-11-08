@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="very basic employee view is done">
-      <change afterPath="$PROJECT_DIR$/routes/scheduleRoute.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/scheduleView.ejs" afterDir="false" />
+    <list default="true" id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="Starting the schedule webpage">
+      <change beforePath="$PROJECT_DIR$/.idea/capstone-restaurant-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/capstone-restaurant-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/employeeView.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/employeeView.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index2.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index2.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/scheduleView.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/scheduleView.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +74,7 @@
       <recent name="C:\Users\omarn\IdeaProjects\capstone-restaurant-app\routes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\omarn\IdeaProjects\capstone-restaurant-app\CFA" />
       <recent name="C:\Users\omarn\IdeaProjects\capstone-restaurant-app\assets" />
       <recent name="C:\Users\omarn\IdeaProjects\capstone-restaurant-app" />
     </key>
@@ -126,7 +126,7 @@
       <workItem from="1636316979449" duration="1049000" />
       <workItem from="1636318086590" duration="75000" />
       <workItem from="1636318512571" duration="2005000" />
-      <workItem from="1636320654510" duration="21863000" />
+      <workItem from="1636320654510" duration="27290000" />
     </task>
     <task id="LOCAL-00001" summary="New Layout">
       <created>1634680746117</created>
@@ -212,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636342685029</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Starting the schedule webpage">
+      <created>1636344151813</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1636344151813</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +269,7 @@
     <MESSAGE value="Added a working add employee page - going to work on a list of all employees now." />
     <MESSAGE value="View Employee page kinda coming along" />
     <MESSAGE value="very basic employee view is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="very basic employee view is done" />
+    <MESSAGE value="Starting the schedule webpage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Starting the schedule webpage" />
   </component>
 </project>
