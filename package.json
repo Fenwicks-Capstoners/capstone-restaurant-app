@@ -16,7 +16,8 @@
     "mongodb-atlas-api-client": "^2.26.0",
     "mongoose": "^6.0.12",
     "morgan": "~1.9.1",
-    "nodemon": "^2.0.14"
+    "nodemon": "^2.0.14",
+    "require-dir": "^1.2.0"
   },
   "description": "![alt text](images/crud-express-mongo.png)",
   "main": "app.js",

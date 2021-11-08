@@ -6,12 +6,18 @@ var MongoClient = require('mongodb').MongoClient
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+var requireDir = require('require-dir');
+
 
 //routes folder and index
-var indexRouter = require('./routes/index');
-var oldIndexRouter = require('./routes/oldindex');
-var usersRouter = require('./routes/users');
+
 var app = express();
+
+// app.js
+//...
+var routes = requireDir('./routes'); // https://www.npmjs.org/package/require-dir
+for (var i in routes) app.use('/', routes[i]);
+//...
 
 // Make sure you place body-parser before your CRUD handlers!
 // app.use(bodyParser.urlencoded({ extended: true }));
@@ -25,27 +31,10 @@ app.use(bodyParser.json())
 app.use(bodyParser.json({ type: 'application/vnd.api+json' }))
 
 app.use(function (req, res, next) {
-  console.log(req.body) // populated!
-  next()
-})
+  console.log(req.body); // populated!
+  next();
+});
 app.use("/assets", express.static('./assets/'));
-
-
-// All your handlers here...
-
-//todo: maybe dont connect w/ mongoose
-//const mongoose = require("mongoose");
-//  const uri = "mongodb+srv://Omar:George72@cluster0.cpwsq.mongodb.net/capstone_database?retryWrites=true&w=majority";
-// const connexion = mongoose
-//     .connect(uri)
-//     .then(() => {
-//       console.log("Connected to database");
-//     })
-//     .catch((err) => {
-//       console.log("Error connecting to the database", err);
-//     });
-
-
 
 
 
@@ -59,9 +48,10 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', indexRouter);
-app.use('/oldIndex', oldIndexRouter);
-app.use('/users', usersRouter);
+// app.use('/', indexRouter);
+// app.use('/index2', indexRouter2);
+// app.use('/oldIndex', oldIndexRouter);
+// app.use('/users', usersRouter);
 
 const uri = "mongodb+srv://Omar:George72@cluster0.cpwsq.mongodb.net/capstone_database?retryWrites=true&w=majority";
 MongoClient.connect(uri, (err, client) => {
@@ -70,21 +60,34 @@ MongoClient.connect(uri, (err, client) => {
   uc = db.collection('userCollection');
 });
 
-app.post('/test', (req, res) => {
-  uc.insertOne(req.body)
-      .then(result => {
-        console.log(result)
-        res.redirect('/');
-      })
-      .catch(error => console.error(error))
-})
-app.get('/', (req, res) => {
-  db.collection('userCollection').find().toArray().then(results => {
-        res.send(results);
-        console.log(results);
-      }).catch(error => console.error(error))
-  // ...
-});
+// app.post('/test', (req, res) => {
+//   uc.insertOne(req.body)
+//       .then(result => {
+//         console.log(result)
+//         res.redirect('/');
+//       })
+//       .catch(error => console.error(error))
+// })
+
+// app.get('/', (req, res) => {
+//   db.collection('userCollection').find().toArray().then(results => {
+//         res.send(results);
+//         console.log(results);
+//       }).catch(error => console.error(error))
+//   // ...
+// });
+
+//gets all http://localhost:3000/index3
+// app.get('/index3', (req, res) => {
+//     db.collection('userCollection').find().toArray().then(results => {
+//         res.send(results);
+//         console.log(results);
+//     }).catch(error => console.error(error))
+//     // ...
+// }); //todo: change to 'index2'
+
+
+
 // app.get('/', (req, res) => {
 //   db.collection('userCollection').find().toArray((err, result) => {
 //     if (err) return console.log(err);

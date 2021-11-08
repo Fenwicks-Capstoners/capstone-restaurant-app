@@ -2,8 +2,11 @@ var express = require('express');
 var router = express.Router();
 
 /* GET home page. */
+//gets route index.js
  router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  //below renders view index.ejs
+  res.render('index', { title: 'Add Employee' });
+  //next();
  });
 
 module.exports = router;

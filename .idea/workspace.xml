@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="just git added now trying to push all to remote">
-      <change afterPath="$PROJECT_DIR$/views/index2.ejs" afterDir="false" />
+    <list default="true" id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="Trying to use template Files - not setup to work with add employee yet">
+      <change afterPath="$PROJECT_DIR$/routes/employeeRoute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/index2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/employeeView.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/oldindex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +35,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -59,6 +66,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/routes" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -68,7 +76,11 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\omarn\IdeaProjects\capstone-restaurant-app\routes" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\omarn\IdeaProjects\capstone-restaurant-app\assets" />
       <recent name="C:\Users\omarn\IdeaProjects\capstone-restaurant-app" />
     </key>
   </component>
@@ -119,7 +131,7 @@
       <workItem from="1636316979449" duration="1049000" />
       <workItem from="1636318086590" duration="75000" />
       <workItem from="1636318512571" duration="2005000" />
-      <workItem from="1636320654510" duration="4472000" />
+      <workItem from="1636320654510" duration="10276000" />
     </task>
     <task id="LOCAL-00001" summary="New Layout">
       <created>1634680746117</created>
@@ -170,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636320799349</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Trying to use template Files - not setup to work with add employee yet">
+      <created>1636326871221</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1636326871221</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +234,7 @@
     <MESSAGE value="trying to merge2 4pm" />
     <MESSAGE value="just git added now trying to push all to remote" />
     <MESSAGE value="all should be working now" />
-    <option name="LAST_COMMIT_MESSAGE" value="all should be working now" />
+    <MESSAGE value="Trying to use template Files - not setup to work with add employee yet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trying to use template Files - not setup to work with add employee yet" />
   </component>
 </project>
