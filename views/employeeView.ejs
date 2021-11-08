@@ -31,13 +31,23 @@
 
             employees
                 <ul class="employees">
+
                     <% for(var i=0; i<userCollection.length; i++) {%>
                         <li class="employees">
-                            <span><%= " Name: " +userCollection[i].fname+" " + userCollection[i].lname + "."%>
+                            <span>
+                                <%
+                                    const managerBool = {
+                                        tf: function (){
+                                            if (userCollection[i].admin == "on"){
+                                                return true;
+                                            }else return false;
+                                        }
+                                    }
+                                %>
+                                <Strong>Name:</Strong>  <%=userCollection[i].fname+ " " + userCollection[i].lname%> <br>
+                                <Strong>Email: </Strong>  <%=userCollection[i].email%><br>
 
-                            <%= " Email: " +userCollection[i].email%>
-
-                            <%= " Manager: " +userCollection[i].admin%></span>
+                                <Strong>Manager: </Strong> <%=managerBool.tf();%></span>
                         </li>
                     <% } %>
                 </ul>
