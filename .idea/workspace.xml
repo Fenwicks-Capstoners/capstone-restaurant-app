@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="View Employee page kinda coming along">
+    <list default="true" id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="very basic employee view is done">
+      <change afterPath="$PROJECT_DIR$/routes/scheduleRoute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/scheduleView.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/employeeView.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/employeeView.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index2.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index2.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +126,7 @@
       <workItem from="1636316979449" duration="1049000" />
       <workItem from="1636318086590" duration="75000" />
       <workItem from="1636318512571" duration="2005000" />
-      <workItem from="1636320654510" duration="20277000" />
+      <workItem from="1636320654510" duration="21863000" />
     </task>
     <task id="LOCAL-00001" summary="New Layout">
       <created>1634680746117</created>
@@ -201,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636341572363</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="very basic employee view is done">
+      <created>1636342685029</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1636342685029</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +261,7 @@
     <MESSAGE value="Split the routes from the app.js file into their own routes within the routes file" />
     <MESSAGE value="Added a working add employee page - going to work on a list of all employees now." />
     <MESSAGE value="View Employee page kinda coming along" />
-    <option name="LAST_COMMIT_MESSAGE" value="View Employee page kinda coming along" />
+    <MESSAGE value="very basic employee view is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="very basic employee view is done" />
   </component>
 </project>

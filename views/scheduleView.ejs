@@ -25,32 +25,15 @@
                     if they get too long. You can also remove the <p> entirely if you don't
                     need a subtitle.
                 -->
-                <h2><a href="#">Employee Management</a></h2>
-                <p>This page shows employees and lets you manage them</p>
+                <h2><a href="#">Employee Schedule</a></h2>
+                <p>This page shows employees their schedule and lets you manage them</p>
+                <p>Store hours: 7AM - 11PM </p>
+                <p>Basic shifts last 8 hours allowing for two different shifts</p>
+                <p>While open: at least one manager is needed + two additional employees</p>
             </header>
 
-            employees
-                <ul class="employees">
 
-                    <% for(var i=0; i<userCollection.length; i++) {%>
-                        <li class="employees">
-                            <span>
-                                <%
-                                    const managerBool = {
-                                        tf: function (){
-                                            if (userCollection[i].admin == "on"){
-                                                return true;
-                                            }else return false;
-                                        }
-                                    }
-                                %>
-                                <Strong>Name:</Strong>  <%=userCollection[i].fname+ " " + userCollection[i].lname%> <br>
-                                <Strong>Email: </Strong>  <%=userCollection[i].email%><br>
 
-                                <Strong>Manager: </Strong> <%=managerBool.tf();%></span>
-                        </li>
-                    <% } %>
-                </ul>
 
             <div class="info">
                 <!--
@@ -139,9 +122,9 @@
             <li ><a href="/">Home</a></li>
             <li><a href="#">Archives</a></li>
             <li><a href="#">About Me</a></li>
-            <li><a href="scheduleRoute">Schedule</a></li>
+            <li class="current"><a href="scheduleRoute">Schedule</a></li>
             <li><a href="index2">Add Employee</a></li>
-            <li class="current"><a href="employeeRoute">Show Employee</a></li>
+            <li ><a href="employeeRoute">Show Employee</a></li>
         </ul>
     </nav>
 
