@@ -53,7 +53,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // app.use('/oldIndex', oldIndexRouter);
 // app.use('/users', usersRouter);
 
-const uri = "mongodb+srv://Omar:George72@cluster0.cpwsq.mongodb.net/capstone_database?retryWrites=true&w=majority";
+var uri = "mongodb+srv://Omar:George72@cluster0.cpwsq.mongodb.net/capstone_database?retryWrites=true&w=majority";
 MongoClient.connect(uri, (err, client) => {
   if (err) return console.log(err);
   db = client.db('capstone_database');

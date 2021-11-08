@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="Trying to use template Files - not setup to work with add employee yet">
-      <change afterPath="$PROJECT_DIR$/routes/employeeRoute.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/index2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/employeeView.ejs" afterDir="false" />
+    <list default="true" id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="Split the routes from the app.js file into their own routes within the routes file">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/oldindex.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index2.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index2.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index2.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +125,7 @@
       <workItem from="1636316979449" duration="1049000" />
       <workItem from="1636318086590" duration="75000" />
       <workItem from="1636318512571" duration="2005000" />
-      <workItem from="1636320654510" duration="10276000" />
+      <workItem from="1636320654510" duration="16237000" />
     </task>
     <task id="LOCAL-00001" summary="New Layout">
       <created>1634680746117</created>
@@ -189,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636326871221</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Split the routes from the app.js file into their own routes within the routes file">
+      <created>1636332748165</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1636332748165</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,6 +236,7 @@
     <MESSAGE value="just git added now trying to push all to remote" />
     <MESSAGE value="all should be working now" />
     <MESSAGE value="Trying to use template Files - not setup to work with add employee yet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trying to use template Files - not setup to work with add employee yet" />
+    <MESSAGE value="Split the routes from the app.js file into their own routes within the routes file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Split the routes from the app.js file into their own routes within the routes file" />
   </component>
 </project>
