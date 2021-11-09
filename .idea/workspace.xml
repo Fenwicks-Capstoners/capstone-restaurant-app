@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="The schedule's a mess but it's something">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scheduleView.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/scheduleView.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +121,7 @@
       <workItem from="1636318086590" duration="75000" />
       <workItem from="1636318512571" duration="2005000" />
       <workItem from="1636320654510" duration="29525000" />
-      <workItem from="1636478436197" duration="4258000" />
+      <workItem from="1636478436197" duration="5151000" />
     </task>
     <task id="LOCAL-00001" summary="New Layout">
       <created>1634680746117</created>
@@ -225,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636349735361</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Might need to revert this commit/push it's kinda gross -- schedule stuff added some dependencies I might not use">
+      <created>1636486533259</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1636486533259</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +280,7 @@
     <MESSAGE value="very basic employee view is done" />
     <MESSAGE value="Starting the schedule webpage" />
     <MESSAGE value="The schedule's a mess but it's something" />
-    <option name="LAST_COMMIT_MESSAGE" value="The schedule's a mess but it's something" />
+    <MESSAGE value="Might need to revert this commit/push it's kinda gross -- schedule stuff added some dependencies I might not use" />
+    <option name="LAST_COMMIT_MESSAGE" value="Might need to revert this commit/push it's kinda gross -- schedule stuff added some dependencies I might not use" />
   </component>
 </project>
