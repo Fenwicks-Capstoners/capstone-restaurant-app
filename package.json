@@ -11,17 +11,23 @@
     "debug": "~2.6.9",
     "ejs": "~2.6.1",
     "express": "^4.16.4",
+    "grunt-cssnano": "^3.0.0",
     "http-errors": "~1.6.3",
     "mongodb": "^4.1.3",
     "mongodb-atlas-api-client": "^2.26.0",
     "mongoose": "^6.0.12",
     "morgan": "~1.9.1",
     "nodemon": "^2.0.14",
-    "require-dir": "^1.2.0"
+    "require-dir": "^1.2.0",
+    "stylelint": "^14.0.1"
   },
   "description": "![alt text](images/crud-express-mongo.png)",
   "main": "app.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt": "^1.4.1",
+    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-postcss": "^0.9.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Fenwicks-Capstoners/capstone-restaurant-app.git"

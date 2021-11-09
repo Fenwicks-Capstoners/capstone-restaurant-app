@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="Starting the schedule webpage">
-      <change beforePath="$PROJECT_DIR$/.idea/capstone-restaurant-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/capstone-restaurant-app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+    <list default="true" id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="The schedule's a mess but it's something">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/scheduleView.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/scheduleView.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,15 +80,13 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,7 +124,8 @@
       <workItem from="1636316979449" duration="1049000" />
       <workItem from="1636318086590" duration="75000" />
       <workItem from="1636318512571" duration="2005000" />
-      <workItem from="1636320654510" duration="27290000" />
+      <workItem from="1636320654510" duration="29525000" />
+      <workItem from="1636478436197" duration="4258000" />
     </task>
     <task id="LOCAL-00001" summary="New Layout">
       <created>1634680746117</created>
@@ -219,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636344151813</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="The schedule's a mess but it's something">
+      <created>1636349735361</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1636349735361</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +276,7 @@
     <MESSAGE value="View Employee page kinda coming along" />
     <MESSAGE value="very basic employee view is done" />
     <MESSAGE value="Starting the schedule webpage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Starting the schedule webpage" />
+    <MESSAGE value="The schedule's a mess but it's something" />
+    <option name="LAST_COMMIT_MESSAGE" value="The schedule's a mess but it's something" />
   </component>
 </project>
