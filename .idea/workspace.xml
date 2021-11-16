@@ -4,8 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="The schedule's a mess but it's something">
+    <list default="true" id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="New Layout Pt. 2">
+      <change afterPath="$PROJECT_DIR$/routes/testdayroute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/testdayview.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/testweekview.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ejs/Jakefile" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ejs/Jakefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ejs/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ejs/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ejs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ejs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ejs/ejs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ejs/ejs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ejs/ejs.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ejs/ejs.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ejs/lib/ejs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ejs/lib/ejs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ejs/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ejs/lib/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ejs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ejs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +53,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1zk2JG8FHC6zMiGmjurrbSOEcOf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -122,6 +139,7 @@
       <workItem from="1636318512571" duration="2005000" />
       <workItem from="1636320654510" duration="29525000" />
       <workItem from="1636478436197" duration="5151000" />
+      <workItem from="1637032272234" duration="11256000" />
     </task>
     <task id="LOCAL-00001" summary="New Layout">
       <created>1634680746117</created>
