@@ -15,6 +15,7 @@ MongoClient.connect(uri, (err, client) => {
     if (err) return console.log(err);
     db = client.db('capstone_database');
     uc = db.collection('dayCollection');
+    return;
 })
 
 /* GET home page. */
@@ -32,6 +33,7 @@ router.post('/addDay', (req, res) => {
             res.redirect('/testdayroute'); //todo: change to emp view after submitting
         })
         .catch(error => console.error(error))
+        return;
 })
 
 module.exports = router;
