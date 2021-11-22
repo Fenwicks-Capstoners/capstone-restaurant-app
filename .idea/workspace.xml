@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="Tidying up the json file&#10;Ran into a known bug where the locked json doesnt update when the unlocked one does. fixed by deleting the locked one and just running npm install again&#10;currently at 0 vulnerabilities started with 14~" />
-    <list id="5a207a1c-a92f-4117-b5d9-2150e350cc26" name="removing grunt junk it's problematic on npm installs" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="Tidying up the json file&#10;Ran into a known bug where the locked json doesnt update when the unlocked one does. fixed by deleting the locked one and just running npm install again&#10;currently at 0 vulnerabilities started with 14~">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/scheduleRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/scheduleRoute.js" afterDir="false" />
     </list>
+    <list id="5a207a1c-a92f-4117-b5d9-2150e350cc26" name="removing grunt junk it's problematic on npm installs" comment="removing grunt junk it's problematic on npm installs" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,8 +57,8 @@
       </set>
     </option>
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/routes/scheduleRoute.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1zk2JG8FHC6zMiGmjurrbSOEcOf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -73,6 +76,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.16.3" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.20.37" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/routes" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -142,7 +147,7 @@
       <workItem from="1636478436197" duration="5151000" />
       <workItem from="1637032272234" duration="11256000" />
       <workItem from="1637612239611" duration="115000" />
-      <workItem from="1637612474011" duration="1824000" />
+      <workItem from="1637612474011" duration="2980000" />
     </task>
     <task id="LOCAL-00001" summary="New Layout">
       <created>1634680746117</created>
@@ -256,7 +261,21 @@
       <option name="project" value="LOCAL" />
       <updated>1637614273410</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="removing grunt junk it's problematic on npm installs">
+      <created>1637614313290</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1637614313290</updated>
+    </task>
+    <task id="LOCAL-00018" summary="removing grunt junk it's problematic on npm installs">
+      <created>1637614421913</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1637614421913</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,6 +329,7 @@
     <MESSAGE value="The schedule's a mess but it's something" />
     <MESSAGE value="Might need to revert this commit/push it's kinda gross -- schedule stuff added some dependencies I might not use" />
     <MESSAGE value="Tidying up the json file&#10;Ran into a known bug where the locked json doesnt update when the unlocked one does. fixed by deleting the locked one and just running npm install again&#10;currently at 0 vulnerabilities started with 14~" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tidying up the json file&#10;Ran into a known bug where the locked json doesnt update when the unlocked one does. fixed by deleting the locked one and just running npm install again&#10;currently at 0 vulnerabilities started with 14~" />
+    <MESSAGE value="removing grunt junk it's problematic on npm installs" />
+    <option name="LAST_COMMIT_MESSAGE" value="removing grunt junk it's problematic on npm installs" />
   </component>
 </project>
