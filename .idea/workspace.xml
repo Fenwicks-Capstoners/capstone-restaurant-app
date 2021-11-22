@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="Tidying up the json file&#10;Ran into a known bug where the locked json doesnt update when the unlocked one does. fixed by deleting the locked one and just running npm install again&#10;currently at 0 vulnerabilities started with 14~">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+    <list default="true" id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="saved ejs to the json">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/scheduleRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/scheduleRoute.js" afterDir="false" />
     </list>
-    <list id="5a207a1c-a92f-4117-b5d9-2150e350cc26" name="removing grunt junk it's problematic on npm installs" comment="removing grunt junk it's problematic on npm installs" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +80,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -129,7 +125,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="" />
-      <changelist id="5a207a1c-a92f-4117-b5d9-2150e350cc26" name="removing grunt junk it's problematic on npm installs" comment="" />
+      <changelist id="" name="removing grunt junk it's problematic on npm installs" comment="" />
       <created>1634677695800</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -147,7 +143,7 @@
       <workItem from="1636478436197" duration="5151000" />
       <workItem from="1637032272234" duration="11256000" />
       <workItem from="1637612239611" duration="115000" />
-      <workItem from="1637612474011" duration="2980000" />
+      <workItem from="1637612474011" duration="3536000" />
     </task>
     <task id="LOCAL-00001" summary="New Layout">
       <created>1634680746117</created>
@@ -275,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637614421913</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="added ejs to the npm install list for json">
+      <created>1637615862969</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1637615862969</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,6 +333,7 @@
     <MESSAGE value="Might need to revert this commit/push it's kinda gross -- schedule stuff added some dependencies I might not use" />
     <MESSAGE value="Tidying up the json file&#10;Ran into a known bug where the locked json doesnt update when the unlocked one does. fixed by deleting the locked one and just running npm install again&#10;currently at 0 vulnerabilities started with 14~" />
     <MESSAGE value="removing grunt junk it's problematic on npm installs" />
-    <option name="LAST_COMMIT_MESSAGE" value="removing grunt junk it's problematic on npm installs" />
+    <MESSAGE value="added ejs to the npm install list for json" />
+    <option name="LAST_COMMIT_MESSAGE" value="added ejs to the npm install list for json" />
   </component>
 </project>
