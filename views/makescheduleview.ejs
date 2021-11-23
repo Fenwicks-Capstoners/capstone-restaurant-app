@@ -25,9 +25,56 @@
                     if they get too long. You can also remove the <p> entirely if you don't
                     need a subtitle.
                 -->
-                <h2><a href="#">Welcome to Shifty</a></h2>
-                <p>A free, fully responsive HTML5 site template by HTML5 UP</p>
+                <h2><a href="#">Schedule Maker</a></h2>
+                <p>This page shows a newly created schedule</p>
             </header>
+
+            Schedule
+                <ul class="employees">
+              <%  const mongoose = require('mongoose');
+                let Users = require('./models/user.model');
+
+                const uri = process.env.ATLAS_URI;
+                mongoose.connect(uri, { useNewUrlParser: true, useCreateIndex:true, useUnifiedTopology: true});
+                const connection = mongoose.connection;
+                connection.once('open', () => {
+                    console.log("MongoDB connection success");%>
+
+                <% let arr = [];
+
+                   // This is an async function (returns a promise)
+                   async function getRecords() {
+                       let docs = await Users.find({}).lean();
+                       arr = docs.filter((doc) => doc !== null); // As an example, however, enter appropriate condition for filter
+                       return arr;
+                      v
+                   }
+
+                   <%// Call the async function
+                   getRecords().then(docs => {
+                     console.log("ARRAY:", arr);
+                   });%>
+
+                   <!-- <% let week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", 'Friday', 'Saturday']%>
+                    <% for(var i=0; i<userCollection.length; i++) {%>
+                        <li class="employees">
+                            <span>
+                                <%
+                                    const managerBool = {
+                                        tf: function (){
+                                            if (userCollection[i].admin == "on"){
+                                                return true;
+                                            }else return false;
+                                        }
+                                    }
+
+                                %>
+                                <Strong>Manager</Strong>  <%=userCollection[i].fname+ " " + userCollection[i].lname%> <br>
+
+                        </li>
+                    <% } %>
+                       --> </ul>
+
             <div class="info">
                 <!--
                     Note: The date should be formatted exactly as it's shown below. In particular, the
@@ -107,21 +154,18 @@
 <div id="sidebar">
 
     <!-- Logo -->
-    <h1 id="logo"><a href="#">Shifty</a></h1>
+    <h1 id="logo"><a href="/">Shifty</a></h1>
 
     <!-- Nav -->
     <nav id="nav">
         <ul>
-            <li class="current"><a href="#">Home</a></li>
+            <li ><a href="/">Home</a></li>
             <li><a href="#">Archives</a></li>
             <li><a href="#">About Me</a></li>
             <li><a href="scheduleRoute">Schedule</a></li>
             <li><a href="index2">Add Employee</a></li>
-            <li><a href="employeeRoute">Show Employee</a></li>
-            <li><a href="testdayroute">Day Test</a></li>
+            <li class="current"><a href="employeeRoute">Show Employee</a></li>
             <li><a href="calendarRoute">test calendar</a></li>
-            <li><a href="calendarRoute">test calendar</a></li>
-
         </ul>
     </nav>
 

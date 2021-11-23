@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="saved ejs to the json">
+      <change afterPath="$PROJECT_DIR$/routes/makescheduleroute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/makescheduleview.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CFA/calendar-flip-animation/dist/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/CFA/calendar-flip-animation/dist/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CFA/calendar-flip-animation/dist/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CFA/calendar-flip-animation/dist/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CFA/calendar-flip-animation/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CFA/calendar-flip-animation/src/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/CFA/calendar-flip-animation/dist/script2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CFA/calendar-flip-animation/src/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/calendarView.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/calendarView.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scheduleView.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/scheduleView.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
