@@ -6,13 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="saved ejs to the json">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CFA/calendar-flip-animation/dist/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/CFA/calendar-flip-animation/dist/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CFA/calendar-flip-animation/dist/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CFA/calendar-flip-animation/dist/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CFA/calendar-flip-animation/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CFA/calendar-flip-animation/src/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/CFA/calendar-flip-animation/dist/script2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CFA/calendar-flip-animation/src/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/calendarView.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/calendarView.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scheduleView.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/scheduleView.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +156,7 @@
       <workItem from="1637612474011" duration="3536000" />
       <workItem from="1637616037638" duration="718000" />
       <workItem from="1637616789180" duration="4824000" />
-      <workItem from="1637622086189" duration="19513000" />
+      <workItem from="1637622086189" duration="20559000" />
     </task>
     <task id="LOCAL-00001" summary="New Layout">
       <created>1634680746117</created>
@@ -312,7 +305,21 @@
       <option name="project" value="LOCAL" />
       <updated>1637626049047</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Calendar shows the right date now and I added the little flipping feature that I love. Though I will probably have to scrap the flip if it takes too long to implement fully">
+      <created>1637641814865</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1637641814865</updated>
+    </task>
+    <task id="LOCAL-00023" summary="added navs for the new test calendar page">
+      <created>1637642038351</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1637642038351</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,6 +377,8 @@
     <MESSAGE value="added ejs to the npm install list for json" />
     <MESSAGE value="Test to see if .idea workspace.xml messes up other peoples builds" />
     <MESSAGE value="Made a calendarView.ejs&#10;Split the calendar here and it looks better. Saving now because I might break everything on this next step" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made a calendarView.ejs&#10;Split the calendar here and it looks better. Saving now because I might break everything on this next step" />
+    <MESSAGE value="Calendar shows the right date now and I added the little flipping feature that I love. Though I will probably have to scrap the flip if it takes too long to implement fully" />
+    <MESSAGE value="added navs for the new test calendar page" />
+    <option name="LAST_COMMIT_MESSAGE" value="added navs for the new test calendar page" />
   </component>
 </project>
