@@ -30,7 +30,9 @@ var app = {
 		});
 
 		settings.buttons.on('click', function(){
+
 			instance.swap(settings.form, settings.calendar);
+
 		});
 	}
 }

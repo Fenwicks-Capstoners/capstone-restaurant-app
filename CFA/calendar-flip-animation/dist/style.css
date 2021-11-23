@@ -18,6 +18,9 @@ body, html {
 body {
 	background: #dfebed;
 	font-family: 'Roboto', sans-serif;
+	/*background-color: #333;*/
+	color: #aaa;
+	/*font-family: "Josefin Sans";*/
 }
 
 .container {
@@ -35,7 +38,20 @@ body {
 	border-radius: 4px;
 	box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
 	height: 501px;
-  perspective: 1000;
+  perspective: 1000px;
+	transition: .9s;
+	transform-style: preserve-3d;
+	width: 100%;
+	width: 350px;
+	margin: 50px auto 0;
+}
+
+.calendar2 {
+	background: #2b4450;
+	border-radius: 4px;
+	box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+	height: 501px;
+	perspective: 1000px;
 	transition: .9s;
 	transform-style: preserve-3d;
 	width: 100%;
@@ -211,4 +227,99 @@ body {
 
 .front, .back {
 	backface-visibility: hidden;
+}
+
+/*pasted from dynamic css*/
+
+.cal2endar {
+	width: 350px;
+	margin: 50px auto 0;
+}
+
+.cal2endar__month {
+	font-size: 20px;
+	font-weight: 800;
+	padding: 10px 0;
+	width: 100%;
+	position: relative;
+}
+
+.cal2-month__previous,
+.cal2-month__next {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+}
+.cal2-month__previous:hover,
+.cal2-month__next:hover {
+	background-color: #42A5F5;
+	box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.75);
+	border-radius: 50%;
+	font-weight: 800;
+	color: #111;
+}
+
+.cal2-month__next {
+	right: 0;
+}
+
+.cal2-month__current {
+	text-align: center;
+	color: #e1e1e1;
+}
+
+.cal2-head__day,
+.cal2-body__day {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+
+.cal2-body__week,
+.cal2endar__head {
+	display: block;
+	height: 50px;
+	width: 350px;
+}
+
+.cal2endar__head {
+	line-height: 50px;
+	position: relative;
+}
+.cal2endar__head:after {
+	content: " ";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 1px;
+	background-color: #90CAF9;
+}
+
+.cal2-body__day {
+	color: #777;
+	line-height: 50px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.cal2-day__month--current {
+	color: #e1e1e1;
+}
+
+.cal2-day__day--today {
+	font-weight: 800;
+	color: #2196f3;
+}
+
+.cal2-day__day--selected {
+	background-color: #2196f3;
+	box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.75);
+	border-radius: 50%;
+	color: #111;
 }

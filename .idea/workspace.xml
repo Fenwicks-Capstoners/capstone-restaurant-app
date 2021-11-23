@@ -5,19 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="saved ejs to the json">
-      <change afterPath="$PROJECT_DIR$/assets/js/jquery-3.6.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/moment-with-locales.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/calendarRoute.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/calendarView.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/capstone-restaurant-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/capstone-restaurant-app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CFA/calendar-flip-animation/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CFA/calendar-flip-animation/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/scheduleRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/scheduleRoute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CFA/calendar-flip-animation/dist/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/CFA/calendar-flip-animation/dist/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CFA/calendar-flip-animation/dist/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CFA/calendar-flip-animation/dist/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CFA/calendar-flip-animation/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CFA/calendar-flip-animation/src/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/CFA/calendar-flip-animation/dist/script2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CFA/calendar-flip-animation/src/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/calendarView.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/calendarView.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/scheduleView.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/scheduleView.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +81,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.16.3" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.20.37" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CFA/calendar-flip-animation/dist" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -98,6 +92,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\omarn\Desktop\Workspace\capstone-restaurant-app\CFA\calendar-flip-animation\dist" />
       <recent name="C:\Users\omarn\Desktop\Workspace\capstone-restaurant-app\assets\js" />
       <recent name="C:\Users\omarn\Desktop\Workspace\capstone-restaurant-app\views" />
       <recent name="C:\Users\omarn\Desktop\Workspace\capstone-restaurant-app\routes" />
@@ -110,7 +105,7 @@
       <recent name="C:\Users\omarn\IdeaProjects\capstone-restaurant-app" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -124,6 +119,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/capstone-restaurant-app/CFA/calendar-flip-animation/dist/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -136,6 +134,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -164,7 +163,7 @@
       <workItem from="1637612474011" duration="3536000" />
       <workItem from="1637616037638" duration="718000" />
       <workItem from="1637616789180" duration="4824000" />
-      <workItem from="1637622086189" duration="3747000" />
+      <workItem from="1637622086189" duration="19513000" />
     </task>
     <task id="LOCAL-00001" summary="New Layout">
       <created>1634680746117</created>
@@ -306,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637616082690</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Made a calendarView.ejs&#10;Split the calendar here and it looks better. Saving now because I might break everything on this next step">
+      <created>1637626049047</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1637626049047</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,6 +369,7 @@
     <MESSAGE value="removing grunt junk it's problematic on npm installs" />
     <MESSAGE value="added ejs to the npm install list for json" />
     <MESSAGE value="Test to see if .idea workspace.xml messes up other peoples builds" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test to see if .idea workspace.xml messes up other peoples builds" />
+    <MESSAGE value="Made a calendarView.ejs&#10;Split the calendar here and it looks better. Saving now because I might break everything on this next step" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made a calendarView.ejs&#10;Split the calendar here and it looks better. Saving now because I might break everything on this next step" />
   </component>
 </project>

@@ -2,11 +2,13 @@ var app = {
 	settings: {
 		container: $('.calendar'),
 		calendar: $('.front'),
-		days: $('.weeks span'),
+		days: $('.cal2endar__body'), //todo: span/div arg useful here?
 		form: $('.back'),
 		input: $('.back input'),
 		buttons: $('.back button')
+
 	},
+
 
 	init: function() {
 		instance = this;
@@ -25,12 +27,17 @@ var app = {
 
 	bindUIActions: function() {
 		settings.days.on('click', function(){
+			// var i = $("#panel input");
+			// console.log(i);
 			instance.swap(settings.calendar, settings.form);
 			settings.input.focus();
+			// console.log(settings.days);
 		});
 
 		settings.buttons.on('click', function(){
+			// console.log();
 			instance.swap(settings.form, settings.calendar);
+
 		});
 	}
 }
