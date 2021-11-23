@@ -26,10 +26,10 @@ router.use(bodyParser.urlencoded({ extended: false }));
 router.use(express.static(__dirname +path.sep+ 'public'));
 
 //gets route index.js
-router.get('/scheduleRoute', function(req, res, next) {
+router.get('/scheduleRoute', function(req, res) {
     //below renders view index.ejs
     res.render('scheduleView', { title: 'Express' });
-    next();
+    //next();
 });
 
 

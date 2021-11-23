@@ -19,10 +19,10 @@ MongoClient.connect(uri, (err, client) => {
 
 /* GET home page. */
 //gets route index.js
-router.get('/index2', function(req, res, next) {
+router.get('/index2', function(req, res) {
  //below renders view index.ejs
- res.render('index2', { title: 'Express' });
- next();
+ res.render('index2');
+ // next();
 });
 
 router.post('/addEmp', (req, res) => {

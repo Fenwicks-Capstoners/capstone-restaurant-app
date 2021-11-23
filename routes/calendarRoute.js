@@ -10,10 +10,10 @@ var requireDir = require('require-dir');
 router.use(bodyParser.urlencoded({ extended: false }));
 
 //gets route index.js
-router.get('/calendarRoute', function(req, res, next) {
+router.get('/calendarRoute', function(req, res) {
     //below renders view index.ejs
     res.render('calendarView', { title: 'Express' });
-    next();
+//next();
 });
 
 
