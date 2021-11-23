@@ -44,9 +44,9 @@
                                         }
                                     }
                                 %>
-                                <Strong>Name:</Strong>  <%=userCollection[i].fname+ " " + userCollection[i].lname%> <br>
+                                <Strong>ID: </Strong>  <%=userCollection[i]._id%><br>
+                                <Strong>Name: </Strong>  <%=userCollection[i].fname+ " " + userCollection[i].lname%> <br>
                                 <Strong>Email: </Strong>  <%=userCollection[i].email%><br>
-
                                 <Strong>Manager: </Strong> <%=managerBool.tf();%></span>
                         </li>
                     <% } %>
