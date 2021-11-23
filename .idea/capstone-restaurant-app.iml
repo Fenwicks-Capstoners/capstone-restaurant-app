@@ -8,5 +8,9 @@
     <orderEntry type="library" name="animate.css" level="application" />
     <orderEntry type="library" name="ionicons" level="application" />
     <orderEntry type="library" name="jquery" level="application" />
+    <orderEntry type="library" name="animate.css" level="application" />
+    <orderEntry type="library" name="ionicons" level="application" />
+    <orderEntry type="library" name="jquery" level="application" />
+    <orderEntry type="library" name="moment-with-locales" level="application" />
   </component>
 </module>

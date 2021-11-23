@@ -11,6 +11,8 @@
     "debug": "~2.6.9",
     "ejs": "^2.7.4",
     "express": "^4.16.4",
+    "jquery": "^3.6.0",
+    "jsdom": "^18.1.1",
     "mongodb": "^4.1.3",
     "mongodb-atlas-api-client": "^2.26.0",
     "mongoose": "^6.0.12",

@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="saved ejs to the json">
+      <change afterPath="$PROJECT_DIR$/assets/js/jquery-3.6.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/moment-with-locales.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/calendarRoute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/calendarView.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/capstone-restaurant-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/capstone-restaurant-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CFA/calendar-flip-animation/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CFA/calendar-flip-animation/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/scheduleRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/scheduleRoute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/scheduleView.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/scheduleView.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,33 +87,39 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.16.3" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.20.37" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/routes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/js" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="inlay.hints.JavaScript" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\omarn\Desktop\Workspace\capstone-restaurant-app\assets\js" />
+      <recent name="C:\Users\omarn\Desktop\Workspace\capstone-restaurant-app\views" />
+      <recent name="C:\Users\omarn\Desktop\Workspace\capstone-restaurant-app\routes" />
       <recent name="C:\Users\omarn\IdeaProjects\capstone-restaurant-app\routes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\omarn\Desktop\Workspace\capstone-restaurant-app\assets" />
       <recent name="C:\Users\omarn\IdeaProjects\capstone-restaurant-app\CFA" />
       <recent name="C:\Users\omarn\IdeaProjects\capstone-restaurant-app\assets" />
       <recent name="C:\Users\omarn\IdeaProjects\capstone-restaurant-app" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,7 +144,6 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="" />
-      <changelist id="" name="removing grunt junk it's problematic on npm installs" comment="" />
       <created>1634677695800</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -144,6 +162,9 @@
       <workItem from="1637032272234" duration="11256000" />
       <workItem from="1637612239611" duration="115000" />
       <workItem from="1637612474011" duration="3536000" />
+      <workItem from="1637616037638" duration="718000" />
+      <workItem from="1637616789180" duration="4824000" />
+      <workItem from="1637622086189" duration="3747000" />
     </task>
     <task id="LOCAL-00001" summary="New Layout">
       <created>1634680746117</created>
@@ -278,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637615862969</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Test to see if .idea workspace.xml messes up other peoples builds">
+      <created>1637616082690</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1637616082690</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,6 +362,7 @@
     <MESSAGE value="Tidying up the json file&#10;Ran into a known bug where the locked json doesnt update when the unlocked one does. fixed by deleting the locked one and just running npm install again&#10;currently at 0 vulnerabilities started with 14~" />
     <MESSAGE value="removing grunt junk it's problematic on npm installs" />
     <MESSAGE value="added ejs to the npm install list for json" />
-    <option name="LAST_COMMIT_MESSAGE" value="added ejs to the npm install list for json" />
+    <MESSAGE value="Test to see if .idea workspace.xml messes up other peoples builds" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test to see if .idea workspace.xml messes up other peoples builds" />
   </component>
 </project>

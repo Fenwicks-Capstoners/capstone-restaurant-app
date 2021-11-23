@@ -34,6 +34,8 @@ app.use(function (req, res, next) {
   console.log(req.body); // populated!
   next();
 });
+
+//todo: here's where you'll add src scripts (stuff at the bottom of view files)
 app.use("/assets", express.static('./assets/'));
 app.use("/CFA", express.static('./CFA/'));
 
