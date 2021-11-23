@@ -3,11 +3,17 @@ var router = express.Router();
 
 /* GET home page. */
 //gets route index.js
- router.get('/', function(req, res, next) {
+ router.get('/', function(req, res, next) { //todo change back to / from /home
   //below renders view index.ejs
-  res.render('index', { title: 'Add Employee' });
+  res.render('index', { title: 'Index Page' }); //todo change back to index
   //next();
  });
+
+// // Showing home page
+// app.get("/home", function (req, res) {
+//  res.render("home");
+// });
+
 
 module.exports = router;
 

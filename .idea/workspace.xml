@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AnalysisUIOptions">
-    <option name="SCOPE_TYPE" value="3" />
-  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="saved ejs to the json">
-      <change afterPath="$PROJECT_DIR$/routes/makescheduleroute.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/makescheduleview.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
-    </list>
+    <list default="true" id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="for real this time -fixed the annoying ERR_HTTP_HEADERS_SENT bug" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,6 +53,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/routes/scheduleRoute.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/views/employeeView.ejs" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1zk2JG8FHC6zMiGmjurrbSOEcOf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -80,7 +73,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.16.3" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.20.37" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/CFA/calendar-flip-animation/dist" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -91,11 +84,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\omarn\IdeaProjects\capstone-restaurant-app\views" />
       <recent name="C:\Users\omarn\Desktop\Workspace\capstone-restaurant-app\CFA\calendar-flip-animation\dist" />
       <recent name="C:\Users\omarn\Desktop\Workspace\capstone-restaurant-app\assets\js" />
       <recent name="C:\Users\omarn\Desktop\Workspace\capstone-restaurant-app\views" />
       <recent name="C:\Users\omarn\Desktop\Workspace\capstone-restaurant-app\routes" />
-      <recent name="C:\Users\omarn\IdeaProjects\capstone-restaurant-app\routes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\omarn\Desktop\Workspace\capstone-restaurant-app\assets" />
@@ -105,15 +98,13 @@
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -162,7 +153,7 @@
       <workItem from="1637612474011" duration="3536000" />
       <workItem from="1637616037638" duration="718000" />
       <workItem from="1637616789180" duration="4824000" />
-      <workItem from="1637622086189" duration="19513000" />
+      <workItem from="1637622086189" duration="20559000" />
     </task>
     <task id="LOCAL-00001" summary="New Layout">
       <created>1634680746117</created>
@@ -311,7 +302,35 @@
       <option name="project" value="LOCAL" />
       <updated>1637626049047</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Calendar shows the right date now and I added the little flipping feature that I love. Though I will probably have to scrap the flip if it takes too long to implement fully">
+      <created>1637641814865</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1637641814865</updated>
+    </task>
+    <task id="LOCAL-00023" summary="added navs for the new test calendar page">
+      <created>1637642038351</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1637642038351</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Finally fixed the annoying ERR_HTTP_HEADERS_SENT bug&#10;Also added some files that'll help me learn how to make a login system">
+      <created>1637689064505</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1637689064505</updated>
+    </task>
+    <task id="LOCAL-00025" summary="for real this time -fixed the annoying ERR_HTTP_HEADERS_SENT bug">
+      <created>1637690454273</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1637690454273</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,6 +363,21 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
@@ -369,6 +403,10 @@
     <MESSAGE value="added ejs to the npm install list for json" />
     <MESSAGE value="Test to see if .idea workspace.xml messes up other peoples builds" />
     <MESSAGE value="Made a calendarView.ejs&#10;Split the calendar here and it looks better. Saving now because I might break everything on this next step" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made a calendarView.ejs&#10;Split the calendar here and it looks better. Saving now because I might break everything on this next step" />
+    <MESSAGE value="Calendar shows the right date now and I added the little flipping feature that I love. Though I will probably have to scrap the flip if it takes too long to implement fully" />
+    <MESSAGE value="added navs for the new test calendar page" />
+    <MESSAGE value="Finally fixed the annoying ERR_HTTP_HEADERS_SENT bug&#10;Also added some files that'll help me learn how to make a login system" />
+    <MESSAGE value="for real this time -fixed the annoying ERR_HTTP_HEADERS_SENT bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="for real this time -fixed the annoying ERR_HTTP_HEADERS_SENT bug" />
   </component>
 </project>
