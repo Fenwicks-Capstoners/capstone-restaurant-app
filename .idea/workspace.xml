@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="Finally fixed the annoying ERR_HTTP_HEADERS_SENT bug&#10;Also added some files that'll help me learn how to make a login system">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index2.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index2.js" afterDir="false" />
-    </list>
+    <list default="true" id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="for real this time -fixed the annoying ERR_HTTP_HEADERS_SENT bug" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -326,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637689064505</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="for real this time -fixed the annoying ERR_HTTP_HEADERS_SENT bug">
+      <created>1637690454273</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1637690454273</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,6 +406,7 @@
     <MESSAGE value="Calendar shows the right date now and I added the little flipping feature that I love. Though I will probably have to scrap the flip if it takes too long to implement fully" />
     <MESSAGE value="added navs for the new test calendar page" />
     <MESSAGE value="Finally fixed the annoying ERR_HTTP_HEADERS_SENT bug&#10;Also added some files that'll help me learn how to make a login system" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finally fixed the annoying ERR_HTTP_HEADERS_SENT bug&#10;Also added some files that'll help me learn how to make a login system" />
+    <MESSAGE value="for real this time -fixed the annoying ERR_HTTP_HEADERS_SENT bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="for real this time -fixed the annoying ERR_HTTP_HEADERS_SENT bug" />
   </component>
 </project>
