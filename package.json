@@ -36,5 +36,8 @@
   "bugs": {
     "url": "https://github.com/Fenwicks-Capstoners/capstone-restaurant-app/issues"
   },
-  "homepage": "https://github.com/Fenwicks-Capstoners/capstone-restaurant-app#readme"
+  "homepage": "https://github.com/Fenwicks-Capstoners/capstone-restaurant-app#readme",
+  "devDependencies": {
+    "http-errors": "^1.8.1"
+  }
 }
