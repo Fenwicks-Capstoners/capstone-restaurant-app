@@ -7,3 +7,4 @@ var UserSchema=mongoose.Schema({
 
 UserSchema.plugin(passportlocalmongoose);
 module.exports=mongoose.model("User", UserSchema);
+

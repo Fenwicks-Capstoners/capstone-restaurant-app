@@ -13,6 +13,7 @@ var
     LocalStrategy = require("passport-local"),
     passportLocalMongoose = require("passport-local-mongoose"),
     User = require("../models/user");
+    Shifty = require("../models/shiftModel")
 const mongoose = require("mongoose");
 
 router.use(bodyParser.urlencoded({ extended: false }));
