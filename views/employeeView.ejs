@@ -31,8 +31,31 @@
 
             employees
                 <ul class="employees">
+                    <!-- $.getscript("models/Model.js",function(){makeSchedule(userCollection);});%>-->
+<%async function makeSchedule(userCollection){
+    let i;
+//create schedule
+    let sched = [14][3];
+    let employ = [];
+    let manag = [];
 
-                    <% for(var i=0; i<userCollection.length; i++) {%>
+    for(i = 0; i< userCollection.length; i++) {
+        if (userCollection[i].admin == "on") {
+            manag += userCollection[i];
+        } else {
+            employ += userCollection[i];
+        }
+    }
+    for(i = 0; i<14; i++) {
+        sched[i][0] = manag[i];
+        for (let j = 1; j < 3; j++) {
+            sched[i][j] = employ[j];
+        }
+    }
+
+    return new promise(promise.resolve(sched));
+}%>
+                    <% for(var i=userCollection.length-1; i>=0; i--) {%>
                         <li class="employees">
                             <span>
                                 <%
@@ -50,7 +73,36 @@
                                 <Strong>Manager: </Strong> <%=managerBool.tf();%></span>
                         </li>
                     <% } %>
+                    <%let disp = makeSchedule(userCollection);%>
+
+                    <%function resolveAfter2Seconds() {
+                        return new Promise(resolve => {
+                          setTimeout(() => {
+                            resolve('resolved');
+                          }, 2000);
+                        });
+                      }
+
+                      async function asyncCall() {
+                        console.log('calling');
+                        const result = await makeSchedule(userCollection);
+                        console.log(result);
+                        // expected output: "resolved"
+                      }
+
+                      asyncCall();%>
+<li className=employees>
+                        <span>
+                        <%for(var j = 0; j < disp.length; j++ ){
+                            if( j % 2 == 0 ){%><Strong>Morning</Strong><%}else{%><Strong>Night</Strong><%}%>
+                            <Strong>Manager </Strong>  <%disp[j][0].fname + " " + disp[j][0].lname%><br>
+                            <Strong>Server </Strong>   <%disp[j][1].fname + " " + disp[j][1].lname%><br>
+                            <Strong>Line Cook </Strong>   <%disp[j][2].fname + " " +  disp[j][2].lname%><br>
+
+                        }%>
+                        </li>
                 </ul>
+
 
             <div class="info">
                 <!--
