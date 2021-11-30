@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="for real this time -fixed the annoying ERR_HTTP_HEADERS_SENT bug" />
+    <list default="true" id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="for real this time -fixed the annoying ERR_HTTP_HEADERS_SENT bug">
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/_template__of_NodeJSConfigurationType.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/_template__of_NodeJSConfigurationType.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-errors/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-errors/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/inherits/inherits.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/inherits/inherits.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/inherits/inherits_browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/inherits/inherits_browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/inherits/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/inherits/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/toidentifier/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/toidentifier/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/toidentifier/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/toidentifier/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/toidentifier/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/toidentifier/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/employeeView.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/employeeView.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/register.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/register.ejs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,11 +41,29 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="PUSH_TAGS">
       <GitPushTagMode>
         <option name="argument" value="--tags" />
         <option name="title" value="All" />
       </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="TempBranchBeforeIHelpJerome" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -71,15 +102,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="javascript.nodejs.core.library.configured.version" value="12.16.3" />
-    <property name="javascript.nodejs.core.library.typings.version" value="12.20.37" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.17.6" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.17.6" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/views" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="inlay.hints.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.EJS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -91,10 +122,11 @@
       <recent name="C:\Users\omarn\Desktop\Workspace\capstone-restaurant-app\routes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\omarn\IdeaProjects\capstone-restaurant-app\routes" />
+      <recent name="C:\Users\omarn\IdeaProjects\capstone-restaurant-app\public" />
       <recent name="C:\Users\omarn\Desktop\Workspace\capstone-restaurant-app\assets" />
       <recent name="C:\Users\omarn\IdeaProjects\capstone-restaurant-app\CFA" />
       <recent name="C:\Users\omarn\IdeaProjects\capstone-restaurant-app\assets" />
-      <recent name="C:\Users\omarn\IdeaProjects\capstone-restaurant-app" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
@@ -154,6 +186,8 @@
       <workItem from="1637616037638" duration="718000" />
       <workItem from="1637616789180" duration="4824000" />
       <workItem from="1637622086189" duration="20559000" />
+      <workItem from="1638270456984" duration="1074000" />
+      <workItem from="1638271553334" duration="4423000" />
     </task>
     <task id="LOCAL-00001" summary="New Layout">
       <created>1634680746117</created>
@@ -330,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637690454273</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="for real this time -fixed the annoying ERR_HTTP_HEADERS_SENT bug">
+      <created>1637690483759</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1637690483759</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -408,5 +449,9 @@
     <MESSAGE value="Finally fixed the annoying ERR_HTTP_HEADERS_SENT bug&#10;Also added some files that'll help me learn how to make a login system" />
     <MESSAGE value="for real this time -fixed the annoying ERR_HTTP_HEADERS_SENT bug" />
     <option name="LAST_COMMIT_MESSAGE" value="for real this time -fixed the annoying ERR_HTTP_HEADERS_SENT bug" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
