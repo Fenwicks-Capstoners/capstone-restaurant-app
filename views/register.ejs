@@ -1,15 +1,101 @@
-<h1> Sign up form </h1>
+<!DOCTYPE HTML>
+<!--
+	Shifty by Omar Norombaba
+	Template from: html5up.net | @ajlkn
+-->
+<html lang="en">
+<head>
+    <title>Post-Login Page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body class="is-preload">
 
-<form action="/registerRoute" method="POST">
-    <input type="text" name="username"
-           placeholder="username">
-    <input type="password" name="password"
-           placeholder="password">
-    <button>Submit</button>
-</form>
+<!-- Content -->
+<div id="content">
+    <div class="inner">
 
-<h1>This is home page</h1>
+        <!-- Post -->
+        <article class="box post post-excerpt">
+            <header>
+                <!--
+                    Note: Titles and subtitles will wrap automatically when necessary, so don't worry
+                    if they get too long. You can also remove the <p> entirely if you don't
+                    need a subtitle.
+                -->
+                <h2><a href="#">Register Employee to Shifty</a></h2>
+                <form action="/registerRoute" method="POST">
+                    <input type="text" name="username"
+                           placeholder="username">
+                    <input type="password" name="password"
+                           placeholder="password">
+                    <button>Submit</button>
+                </form>
 
-<li><a href="/registerRoute">Sign up!!</a></li>
-<li><a href="/loginRoute">Login</a></li>
-<li><a href="/logoutRoute">Logout</a></li>
+
+
+            </header>
+            <a href="#" class="image featured"><img src="../assets/images/final%20technology%20instagram%20story.png" alt="" /></a>
+
+
+
+
+        </article>
+
+    </div>
+</div>
+
+<!-- Sidebar -->
+<div id="sidebar">
+
+    <!-- Logo -->
+    <h1 id="logo"><a href="/">Shifty</a></h1>
+
+    <!-- Nav -->
+    <nav id="nav">
+        <ul>
+            <li><a href="/">Home</a></li>
+        </ul>
+    </nav>
+
+    <!-- Text -->
+    <section class="box text-style1">
+        <div class="inner">
+            <p>
+                <strong>Shifty:</strong> No more paper napkins!
+            </p>
+        </div>
+    </section>
+
+
+
+    <!-- Copyright -->
+    <ul id="copyright">
+        <li>Omar Norombaba</li>
+        <li>Design: <a href="http://html5up.net">HTML5</a></li>
+    </ul>
+
+</div>
+
+<!--As mentioned in comments: you need a way to send your static files to the client. This can be achieved with a reverse proxy like Nginx, or simply using express.static().-->
+
+<!--Put all your "static" (css, js, images) files in a folder dedicated to it, different from where you put your "views" (html files in your case). I'll call it static for the example. Once it's done, add this line in your server code:-->
+
+<!--app.use("/static", express.static('./static/'));-->
+<!--This will effectively serve every file in your "static" folder via the /static route.-->
+
+<!--Querying your index.js file in the client thus becomes:-->
+
+<!--<script src="static/index.js"></script>-->
+
+
+<!-- Scripts -->
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/js/browser.min.js"></script>
+<script src="../assets/js/breakpoints.min.js"></script>
+<script src="../assets/js/util.js"></script>
+<script src="../assets/js/main.js"></script>
+
+</body>
+</html>

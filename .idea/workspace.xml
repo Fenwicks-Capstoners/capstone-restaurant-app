@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="if something brakes later it's because I changed display: none to display: flow in titlebar">
-      <change afterPath="$PROJECT_DIR$/assets/css/images/download.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/images/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/images/kuyjf3vea2hg34taa-horizontal_default_slate_blue.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/images/sqpurple.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="Cleaning up HTML">
+      <change afterPath="$PROJECT_DIR$/assets/images/RE.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/final technology instagram story.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/calendarView.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/calendarView.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/employeeView.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/employeeView.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index2.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index2.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/login.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/login.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/scheduleView.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/scheduleView.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/secret.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/secret.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +90,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.16.3" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.20.37" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/css/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -100,18 +101,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\omarn\Desktop\Workspace\capstone-restaurant-app\assets\images" />
       <recent name="C:\Users\omarn\Desktop\Workspace\capstone-restaurant-app\assets\css\images" />
       <recent name="C:\Users\omarn\IdeaProjects\capstone-restaurant-app\views" />
       <recent name="C:\Users\omarn\Desktop\Workspace\capstone-restaurant-app\CFA\calendar-flip-animation\dist" />
       <recent name="C:\Users\omarn\Desktop\Workspace\capstone-restaurant-app\assets\js" />
-      <recent name="C:\Users\omarn\Desktop\Workspace\capstone-restaurant-app\views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\omarn\Desktop\Workspace\capstone-restaurant-app\assets\images" />
       <recent name="C:\Users\omarn\Desktop\Workspace\capstone-restaurant-app\assets\css\images" />
       <recent name="C:\Users\omarn\Desktop\Workspace\capstone-restaurant-app\models" />
       <recent name="C:\Users\omarn\Desktop\Workspace\capstone-restaurant-app\assets" />
       <recent name="C:\Users\omarn\IdeaProjects\capstone-restaurant-app\CFA" />
-      <recent name="C:\Users\omarn\IdeaProjects\capstone-restaurant-app\assets" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
@@ -389,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638867873806</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Cleaning up HTML">
+      <created>1638889098245</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1638889098245</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,7 +457,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/ejs_attempt/ejs_attempt" />
     </ignored-roots>
-    <MESSAGE value="trying to merge2 4pm" />
     <MESSAGE value="just git added now trying to push all to remote" />
     <MESSAGE value="all should be working now" />
     <MESSAGE value="Trying to use template Files - not setup to work with add employee yet" />
@@ -474,7 +481,8 @@
     <MESSAGE value="comm" />
     <MESSAGE value="triying to commit node modules for easier compatibility" />
     <MESSAGE value="if something brakes later it's because I changed display: none to display: flow in titlebar" />
-    <option name="LAST_COMMIT_MESSAGE" value="if something brakes later it's because I changed display: none to display: flow in titlebar" />
+    <MESSAGE value="Cleaning up HTML" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaning up HTML" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
