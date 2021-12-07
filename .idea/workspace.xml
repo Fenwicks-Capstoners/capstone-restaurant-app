@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="triying to commit node modules for easier compatibility">
+    <list default="true" id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="if something brakes later it's because I changed display: none to display: flow in titlebar">
+      <change afterPath="$PROJECT_DIR$/assets/css/images/download.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/images/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/images/kuyjf3vea2hg34taa-horizontal_default_slate_blue.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/images/sqpurple.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/secret.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/secret.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +89,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.16.3" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.20.37" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/css/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -93,18 +100,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\omarn\Desktop\Workspace\capstone-restaurant-app\assets\css\images" />
       <recent name="C:\Users\omarn\IdeaProjects\capstone-restaurant-app\views" />
       <recent name="C:\Users\omarn\Desktop\Workspace\capstone-restaurant-app\CFA\calendar-flip-animation\dist" />
       <recent name="C:\Users\omarn\Desktop\Workspace\capstone-restaurant-app\assets\js" />
       <recent name="C:\Users\omarn\Desktop\Workspace\capstone-restaurant-app\views" />
-      <recent name="C:\Users\omarn\Desktop\Workspace\capstone-restaurant-app\routes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\omarn\Desktop\Workspace\capstone-restaurant-app\assets\css\images" />
       <recent name="C:\Users\omarn\Desktop\Workspace\capstone-restaurant-app\models" />
       <recent name="C:\Users\omarn\Desktop\Workspace\capstone-restaurant-app\assets" />
       <recent name="C:\Users\omarn\IdeaProjects\capstone-restaurant-app\CFA" />
       <recent name="C:\Users\omarn\IdeaProjects\capstone-restaurant-app\assets" />
-      <recent name="C:\Users\omarn\IdeaProjects\capstone-restaurant-app" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
@@ -375,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638861567228</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="if something brakes later it's because I changed display: none to display: flow in titlebar">
+      <created>1638867873806</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1638867873806</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,7 +449,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/ejs_attempt/ejs_attempt" />
     </ignored-roots>
-    <MESSAGE value="trying to merge" />
     <MESSAGE value="trying to merge2 4pm" />
     <MESSAGE value="just git added now trying to push all to remote" />
     <MESSAGE value="all should be working now" />
@@ -460,7 +473,8 @@
     <MESSAGE value="savemodel.js is a good example of mongoose modeling." />
     <MESSAGE value="comm" />
     <MESSAGE value="triying to commit node modules for easier compatibility" />
-    <option name="LAST_COMMIT_MESSAGE" value="triying to commit node modules for easier compatibility" />
+    <MESSAGE value="if something brakes later it's because I changed display: none to display: flow in titlebar" />
+    <option name="LAST_COMMIT_MESSAGE" value="if something brakes later it's because I changed display: none to display: flow in titlebar" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

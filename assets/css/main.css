@@ -2197,19 +2197,20 @@ input, select, textarea {
 /* Sidebar */
 
 	#titleBar {
-		-moz-backface-visibility: hidden;
-		-webkit-backface-visibility: hidden;
-		-ms-backface-visibility: hidden;
-		backface-visibility: hidden;
+		-moz-backface-visibility: visible;
+		-webkit-backface-visibility: visible;
+		-ms-backface-visibility: visible;
+		backface-visibility: visible;
 		-moz-transition: -moz-transform 0.5s ease;
 		-webkit-transition: -webkit-transform 0.5s ease;
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
-		display: none;
+
 		height: 44px;
 		left: 0;
 		position: fixed;
 		top: 0;
+
 		width: 100%;
 		z-index: 10001;
 		background: #364050 url("images/bg01.png");
@@ -2507,7 +2508,7 @@ input, select, textarea {
 			#logo {
 				font-family: 'Open Sans Condensed', sans-serif;
 				font-weight: 700;
-				font-size: 2em;
+				font-size: 1em;
 				letter-spacing: 0.1em;
 			}
 
