@@ -30,51 +30,26 @@
             </header>
 
             Schedule
-                <ul class="employees">
-              <%  const mongoose = require('mongoose');
-                let Users = require('./models/user.model');
 
-                const uri = process.env.ATLAS_URI;
-                mongoose.connect(uri, { useNewUrlParser: true, useCreateIndex:true, useUnifiedTopology: true});
-                const connection = mongoose.connection;
-                connection.once('open', () => {
-                    console.log("MongoDB connection success");%>
 
-                <% let arr = [];
-
-                   // This is an async function (returns a promise)
-                   async function getRecords() {
-                       let docs = await Users.find({}).lean();
-                       arr = docs.filter((doc) => doc !== null); // As an example, however, enter appropriate condition for filter
-                       return arr;
-                      v
-                   }
-
-                   <%// Call the async function
-                   getRecords().then(docs => {
-                     console.log("ARRAY:", arr);
-                   });%>
-
-                   <!-- <% let week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", 'Friday', 'Saturday']%>
-                    <% for(var i=0; i<userCollection.length; i++) {%>
-                        <li class="employees">
+            <% for(var i=scheduleCollection.length-1; i>=0; i--) {%>
+                <li class="employees">
                             <span>
                                 <%
                                     const managerBool = {
                                         tf: function (){
-                                            if (userCollection[i].admin == "on"){
+                                            if (scheduleCollection[i].admin == "on"){
                                                 return true;
                                             }else return false;
                                         }
                                     }
-
                                 %>
-                                <Strong>Manager</Strong>  <%=userCollection[i].fname+ " " + userCollection[i].lname%> <br>
-
-                        </li>
-                    <% } %>
-                       --> </ul>
-
+                                <Strong>ID: </Strong>  <%=scheduleCollection[i]._id%><br>
+                                <Strong>Managers: </Strong>  <%=scheduleCollection[i].MornManager+ " " + scheduleCollection[i].NightManager%> <br>
+                                <Strong>Memp1: </Strong>  <%=scheduleCollection[i].Memp1%><br>
+                                <Strong>Memp2: </Strong> <%=scheduleCollection[i].Memp2%></span>
+                </li>
+            <% } %>
             <div class="info">
                 <!--
                     Note: The date should be formatted exactly as it's shown below. In particular, the
