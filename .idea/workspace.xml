@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="for real this time -fixed the annoying ERR_HTTP_HEADERS_SENT bug">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/userModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/capstone-restaurant-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/capstone-restaurant-app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DontNeedindex.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/shiftModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/shiftModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/userModel.js" beforeDir="false" />
-    </list>
+    <list default="true" id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="for real this time -fixed the annoying ERR_HTTP_HEADERS_SENT bug" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -159,6 +150,7 @@
       <workItem from="1638302064655" duration="7276000" />
       <workItem from="1638334064265" duration="1833000" />
       <workItem from="1638853368136" duration="6273000" />
+      <workItem from="1638860057524" duration="316000" />
     </task>
     <task id="LOCAL-00001" summary="New Layout">
       <created>1634680746117</created>
@@ -342,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638309264831</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="comm">
+      <created>1638860333704</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1638860333704</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,7 +401,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/ejs_attempt/ejs_attempt" />
     </ignored-roots>
-    <MESSAGE value="New Layout" />
     <MESSAGE value="New Layout Pt. 2" />
     <MESSAGE value="trying to merge" />
     <MESSAGE value="trying to merge2 4pm" />
@@ -427,7 +425,8 @@
     <MESSAGE value="for real this time -fixed the annoying ERR_HTTP_HEADERS_SENT bug" />
     <MESSAGE value="Trying to fix your errors" />
     <MESSAGE value="savemodel.js is a good example of mongoose modeling." />
-    <option name="LAST_COMMIT_MESSAGE" value="savemodel.js is a good example of mongoose modeling." />
+    <MESSAGE value="comm" />
+    <option name="LAST_COMMIT_MESSAGE" value="comm" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
