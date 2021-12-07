@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="for real this time -fixed the annoying ERR_HTTP_HEADERS_SENT bug" />
+    <list default="true" id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="triying to commit node modules for easier compatibility">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -358,7 +361,21 @@
       <option name="project" value="LOCAL" />
       <updated>1638860333704</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="triying to commit node modules for easier compatibility">
+      <created>1638861513835</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1638861513835</updated>
+    </task>
+    <task id="LOCAL-00029" summary="triying to commit node modules for easier compatibility">
+      <created>1638861567228</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1638861567228</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,7 +435,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/ejs_attempt/ejs_attempt" />
     </ignored-roots>
-    <MESSAGE value="New Layout Pt. 2" />
     <MESSAGE value="trying to merge" />
     <MESSAGE value="trying to merge2 4pm" />
     <MESSAGE value="just git added now trying to push all to remote" />
@@ -443,7 +459,8 @@
     <MESSAGE value="Trying to fix your errors" />
     <MESSAGE value="savemodel.js is a good example of mongoose modeling." />
     <MESSAGE value="comm" />
-    <option name="LAST_COMMIT_MESSAGE" value="comm" />
+    <MESSAGE value="triying to commit node modules for easier compatibility" />
+    <option name="LAST_COMMIT_MESSAGE" value="triying to commit node modules for easier compatibility" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
