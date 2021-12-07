@@ -14,14 +14,14 @@ const uri = "mongodb+srv://Omar:George72@cluster0.cpwsq.mongodb.net/capstone_dat
 MongoClient.connect(uri, (err, client) => {
     if (err) return console.log(err);
     db = client.db('capstone_database');
-    uc = db.collection('userCollection');
+    uc = db.collection('scheduleCollection');
 });
 
 router.get('/makescheduleroute',(req , res) =>{
-    db.collection('userCollection').find().toArray(function(err , i){
+    db.collection('scheduleCollection').find().toArray(function(err , i){
         if (err) return console.log(err)
 
-        res.render('makescheduleview.ejs',{userCollection: i})
+        res.render('makescheduleview.ejs',{schedulecollection: i})
     })
 });
 

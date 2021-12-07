@@ -28,52 +28,22 @@
                 <h2><a href="#">Schedule Maker</a></h2>
                 <p>This page shows a newly created schedule</p>
             </header>
-
             Schedule
-                <ul class="employees">
-              <%  const mongoose = require('mongoose');
-                let Users = require('./models/user.model');
-
-                const uri = process.env.ATLAS_URI;
-                mongoose.connect(uri, { useNewUrlParser: true, useCreateIndex:true, useUnifiedTopology: true});
-                const connection = mongoose.connection;
-                connection.once('open', () => {
-                    console.log("MongoDB connection success");%>
-
-                <% let arr = [];
-
-                   // This is an async function (returns a promise)
-                   async function getRecords() {
-                       let docs = await Users.find({}).lean();
-                       arr = docs.filter((doc) => doc !== null); // As an example, however, enter appropriate condition for filter
-                       return arr;
-                      v
-                   }
-
-                   <%// Call the async function
-                   getRecords().then(docs => {
-                     console.log("ARRAY:", arr);
-                   });%>
-
-                   <!-- <% let week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", 'Friday', 'Saturday']%>
-                    <% for(var i=0; i<userCollection.length; i++) {%>
-                        <li class="employees">
+            <% for(var i=schedulecollection.length-1; i>=0; i--) {%>
+            <li class="employees">
                             <span>
                                 <%
-                                    const managerBool = {
-                                        tf: function (){
-                                            if (userCollection[i].admin == "on"){
-                                                return true;
-                                            }else return false;
-                                        }
-                                    }
 
                                 %>
-                                <Strong>Manager</Strong>  <%=userCollection[i].fname+ " " + userCollection[i].lname%> <br>
-
-                        </li>
-                    <% } %>
-                       --> </ul>
+                                <Strong>Schedule ID: </Strong>  <%=schedulecollection[i]._id%><br>
+                                <Strong>AM Manager: </Strong> <%=schedulecollection[i].MornManager%> <br>
+                                <Strong>AM Line Cook: </Strong>  <%=schedulecollection[i].Memp1%><br>
+                                <Strong>AM Server: </Strong> <%=schedulecollection[i].Memp2%><br>
+                                <Strong>PM Manager: </Strong> <%=schedulecollection[i].NightManager%> <br>
+                                <Strong>PM Line Cook: </Strong>  <%=schedulecollection[i].Nemp1%><br>
+                                <Strong>PM Server: </Strong> <%=schedulecollection[i].Nemp2%><br>
+                            <%}%></span>
+            </li>
 
             <div class="info">
                 <!--
@@ -84,7 +54,7 @@
                     the entire "date" element.
 
                 -->
-                <span class="date"><span class="month">Jul<span>y</span></span> <span class="day">14</span><span class="year">, 2014</span></span>
+                <span class="date"><span class="month">Dec<span>y</span></span> <span class="day">7</span><span class="year">, 2021</span></span>
                 <!--
                     Note: You can change the number of list items in "stats" to whatever you want.
                 -->
@@ -95,18 +65,8 @@
                     <li><a href="#" class="icon brands fa-facebook-f">128</a></li>
                 </ul>
             </div>
-            <a href="#" class="image featured"><img src="../assets/images/pic01.jpg" alt="" /></a>
-            <p>
-                <strong>Hello!</strong> You're looking at <strong>Shifty</strong>, a fully responsive HTML5 site template designed by <a href="http://twitter.com/ajlkn">AJ</a>
-                for <a href="http://html5up.net">HTML5 UP</a> It features a clean, minimalistic design, styling for all basic page elements (including blockquotes, tables and lists), a
-                repositionable sidebar (left or right), and HTML5/CSS3 code designed for quick and easy customization (see code comments for details).
-            </p>
+            <a href="#" class="image featured"><img src="../assets/images/0001.png" alt="" /></a>
 
-            <p>
-                Shifty is released for free under the <a href="http://html5up.net/license">Creative Commons Attribution license</a> so feel free to use it for personal projects
-                or even commercial ones &ndash; just be sure to credit <a href="http://html5up.net">HTML5 UP</a> for the design. If you like what you see here, be sure to check out
-                <a href="http://html5up.net">HTML5 UP</a> for more cool designs or follow me on <a href="http://twitter.com/ajlkn">Twitter</a> for new releases and updates.
-            </p>
         </article>
 
         <!-- Post -->
@@ -179,38 +139,13 @@
     <!-- Text -->
     <section class="box text-style1">
         <div class="inner">
-            <p>
-                <strong>Shifty:</strong> A free and fully responsive HTML5 site
-                template designed by <a href="http://twitter.com/ajlkn">AJ</a> for <a href="http://html5up.net/">HTML5 UP</a>
-            </p>
+            <p><strong>Shifty:</strong> </p>
         </div>
     </section>
 
     <!-- Recent Posts -->
-    <section class="box recent-posts">
-        <header>
-            <h2>Recent Posts</h2>
-        </header>
-        <ul>
-            <li><a href="#">Lorem ipsum dolor</a></li>
-            <li><a href="#">Feugiat nisl aliquam</a></li>
-            <li><a href="#">Sed dolore magna</a></li>
-            <li><a href="#">Malesuada commodo</a></li>
-            <li><a href="#">Ipsum metus nullam</a></li>
-        </ul>
-    </section>
 
     <!-- Recent Comments -->
-    <section class="box recent-comments">
-        <header>
-            <h2>Recent Comments</h2>
-        </header>
-        <ul>
-            <li>case on <a href="#">Lorem ipsum dolor</a></li>
-            <li>molly on <a href="#">Sed dolore magna</a></li>
-            <li>case on <a href="#">Sed dolore magna</a></li>
-        </ul>
-    </section>
 
     <!-- Calendar -->
     <section class="box calendar">

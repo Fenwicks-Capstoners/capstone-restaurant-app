@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c8e87ec-c329-457c-b349-0eb6c413e878" name="Changes" comment="if something brakes later it's because I changed display: none to display: flow in titlebar">
-      <change afterPath="$PROJECT_DIR$/assets/css/images/download.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/images/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/images/kuyjf3vea2hg34taa-horizontal_default_slate_blue.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/images/sqpurple.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/makescheduleroute.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/makescheduleroute.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/makescheduleview.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/makescheduleview.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/secret.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/secret.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,8 +64,8 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/views/employeeView.ejs" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/routes/scheduleRoute.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/views/employeeView.ejs" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1zk2JG8FHC6zMiGmjurrbSOEcOf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
